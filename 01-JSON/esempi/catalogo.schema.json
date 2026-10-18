@@ -1,0 +1,41 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Catalogo del laboratorio TPSIT",
+  "description": "Prezzi in centesimi di euro e quantità di magazzino.",
+  "type": "object",
+  "properties": {
+    "negozio": {"type": "string", "minLength": 1},
+    "valuta": {"type": "string", "const": "EUR"},
+    "aggiornato_il": {"type": "string", "format": "date"},
+    "prodotti": {
+      "type": "array",
+      "items": {"$ref": "#/$defs/prodotto"}
+    }
+  },
+  "required": ["negozio", "valuta", "aggiornato_il", "prodotti"],
+  "additionalProperties": false,
+  "$defs": {
+    "prodotto": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^P[0-9]{3}$",
+          "minLength": 4,
+          "maxLength": 4
+        },
+        "nome": {"type": "string", "minLength": 1},
+        "prezzo_centesimi": {"type": "integer", "minimum": 0},
+        "quantita": {"type": "integer", "minimum": 0},
+        "etichette": {
+          "type": "array",
+          "items": {"type": "string", "minLength": 1},
+          "uniqueItems": true
+        },
+        "promozione": {"type": ["string", "null"], "minLength": 1}
+      },
+      "required": ["id", "nome", "prezzo_centesimi", "quantita", "etichette", "promozione"],
+      "additionalProperties": false
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "negozio": "Laboratorio TPSIT",
+  "valuta": "EUR",
+  "aggiornato_il": "2026-10-18",
+  "prodotti": [
+    {
+      "id": "P001",
+      "nome": "Tastiera USB",
+      "prezzo_centesimi": 3990,
+      "quantita": 8,
+      "etichette": ["usb", "informatica"],
+      "promozione": null
+    },
+    {
+      "id": "P002",
+      "nome": "Mouse ottico",
+      "prezzo_centesimi": 1490,
+      "quantita": 0,
+      "etichette": ["usb", "informatica"],
+      "promozione": "Ritorna presto disponibile"
+    },
+    {
+      "id": "P003",
+      "nome": "Cuffie per attività audio",
+      "prezzo_centesimi": 2590,
+      "quantita": 5,
+      "etichette": ["audio"],
+      "promozione": null
+    }
+  ]
+}

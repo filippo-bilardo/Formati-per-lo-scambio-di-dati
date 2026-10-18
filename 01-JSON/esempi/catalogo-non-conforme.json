@@ -1,0 +1,15 @@
+{
+  "negozio": "Laboratorio TPSIT",
+  "valuta": "EUR",
+  "aggiornato_il": "2026-10-18",
+  "prodotti": [
+    {
+      "id": "P001",
+      "nome": "Tastiera USB",
+      "prezzo_centesimi": "3990",
+      "quantita": -1,
+      "etichette": ["usb", "informatica"],
+      "promozione": null
+    }
+  ]
+}
