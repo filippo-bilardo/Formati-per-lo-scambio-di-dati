@@ -31,6 +31,8 @@ Lo stato `200` indica successo, ma non garantisce che i dati rispettino lo schem
 
 ## Laboratorio locale riproducibile
 
+Per iniziare creando una risposta JSON direttamente dal codice, prova i [tre web service minimi equivalenti in Node.js, PHP e Python](esempi/web-service/README.md), con istruzioni di avvio e confronto delle risposte.
+
 Il laboratorio usa un file statico servito via HTTP. Permette di studiare lo scambio senza dipendere da un'API esterna o da credenziali; non implementa aggiornamenti sul server.
 
 Apri due terminali nella cartella `01-JSON`. Nel primo avvia:

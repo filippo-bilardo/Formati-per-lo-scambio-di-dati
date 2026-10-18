@@ -61,6 +61,11 @@ Il caso di studio è il catalogo di un piccolo negozio di materiale informatico.
 | [aggiorna_catalogo.js](esempi/aggiorna_catalogo.js) | Esegue la trasformazione in JavaScript con Node.js |
 | [valida_catalogo.js](esempi/valida_catalogo.js) | Valida schema e ID con Ajv; comportamento sui duplicati spiegato nella guida 08 |
 | [client_catalogo.js](esempi/client_catalogo.js) | Riceve il catalogo con `fetch` in Node.js |
+| [Web service Node.js](esempi/web-service/nodejs/server.js) | Server minimo che restituisce un oggetto JSON |
+| [Web service PHP](esempi/web-service/php/index.php) | Lo stesso servizio realizzato in PHP |
+| [Web service Python](esempi/web-service/python/server.py) | Lo stesso servizio con `http.server` e `json` |
+
+Per eseguire e confrontare i tre servizi consulta [Un web service semplicissimo: Node.js, PHP e Python](esempi/web-service/README.md).
 
 Per una prima prova, senza installare librerie:
 
