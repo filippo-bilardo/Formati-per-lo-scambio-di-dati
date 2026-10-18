@@ -1,0 +1,22 @@
+[
+  {
+    "id": "O001",
+    "righe": [{"prodotto_id": "P001", "quantita": 2}, {"prodotto_id": "P003", "quantita": 1}]
+  },
+  {
+    "id": "O002",
+    "righe": [{"prodotto_id": "P002", "quantita": 1}]
+  },
+  {
+    "id": "O003",
+    "righe": [{"prodotto_id": "P003", "quantita": 10}]
+  },
+  {
+    "id": "O004",
+    "righe": [{"prodotto_id": "P999", "quantita": 1}]
+  },
+  {
+    "id": "O005",
+    "righe": [{"prodotto_id": "P001", "quantita": 1}, {"prodotto_id": "P003", "quantita": 9}]
+  }
+]

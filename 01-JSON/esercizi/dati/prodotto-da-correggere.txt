@@ -1,0 +1,8 @@
+{
+  id: 'P004',
+  "nome": "Cavo USB",
+  "prezzo_centesimi": 0990,
+  "quantita": 2,
+  "etichette": ["usb",],
+  "promozione": None
+}

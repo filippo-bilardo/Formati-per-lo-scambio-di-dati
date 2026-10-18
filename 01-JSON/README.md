@@ -46,6 +46,8 @@ Su Windows il comando dell'interprete può essere `py` o `python` al posto di `p
 
 ## Caso di studio ed esempi
 
+Per le attività da assegnare agli studenti consulta la cartella [esercizi](esercizi/README.md): contiene **8 esercizi guidati Node.js e 3 PHP**, con script da completare, dati di partenza, prove e criteri di consegna. Il percorso è distinto dalle soluzioni commentate della guida 09.
+
 Il caso di studio è il catalogo di un piccolo negozio di materiale informatico. I prezzi sono espressi in centesimi di euro; la quantità rappresenta le unità a magazzino.
 
 | File | Scopo |

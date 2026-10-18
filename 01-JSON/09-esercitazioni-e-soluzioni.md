@@ -4,6 +4,8 @@
 
 ## Come lavorare
 
+Per schede da assegnare agli studenti con script iniziali da completare, usa il [percorso di esercizi guidati Node.js e PHP](esercizi/README.md). Questa guida raccoglie invece le esercitazioni con soluzioni commentate per il ripasso.
+
 Svolgi le consegne prima di consultare le soluzioni. Esegui i comandi dalla cartella `01-JSON`, conserva il [catalogo originale](esempi/catalogo.json) e usa file distinti per le prove. Per gli esercizi di validazione attiva l'ambiente virtuale descritto nella guida 06.
 
 Puoi svolgere il percorso in Python oppure in JavaScript con Node.js. Per il validatore JavaScript installa prima le dipendenze con `npm install --prefix esempi`. Le soluzioni mostrano entrambe le alternative; i risultati sui dati del catalogo devono coincidere.
